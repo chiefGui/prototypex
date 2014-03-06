@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Proway</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/Base.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheet/Main.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheet/Inside.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="banner">
+            </div>
+
+            <?php
+                $xml = simplexml_load_file("XML/cursos.xml");
+                $xmlContent = $xml->xpath("/cursos/curso[id='{$_GET['id']}']");
+                
+                foreach ($xmlContent as $curso);
+            ?>
+            
+            <div class="container">
+                <a class="back-link" href="#">< VOLTAR </a>
+
+                <p> <a href="#" class="course-title"><?php echo $curso->categoria; ?></a> </p>
+
+                <h1 class="main-description"><?php echo $curso->nome; ?></h1>
+
+                <ul class="info-list float-left">
+                    <li> <span class="info">Início:</span> <?php echo $curso->inicio; ?></li>
+                    <li> <span class="info">Período:</span> <?php echo $curso->periodo; ?></li>
+                    <li> <span class="info">Carga horária:</span> <?php echo $curso->cargaHoraria; ?></li>
+                </ul>
+                <ul class="facebook-actions float-right">
+                    <li> <a href="#">Curtir</a></li>	
+                    <li> <a href="#">Comentar</a></li>
+                    <li> <a href="#">Compartilhar</a></li>
+                </ul>
+
+                <div class="objectives float-left">
+                    <p class="float-left">
+                        <span class="info">Objetivos:</span>
+                    </p>	
+
+                    <p class="main-text float-right">
+                        <?php echo $curso->objetivos; ?>
+                    </p>
+                </div>
+
+                <ul class="bottom-menu">
+                    <li class="green float-left">
+                        <a href="#">Clique aqui para visualizar mais turmas agendadas</a>
+                    </li>
+
+                    <li class="orange">
+                        <a href="#">Dúvidas? Clique aqui.</a>
+                    </li>
+
+                    <li class="blue float-right">
+                        <a href="#">Conheça todos os cursos da <span class="proway"> ProWay </span> clicando aqui!</a>
+                    </li>
+                </ul>
+
+                <div class="sub-banner float-left">
+                </div>
+
+                <div class="sub-banner float-right">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

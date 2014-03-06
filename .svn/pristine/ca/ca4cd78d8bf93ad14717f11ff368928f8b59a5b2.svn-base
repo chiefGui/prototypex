@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Proway</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/Base.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheet/Main.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="banner">
+            </div>
+
+            <div class="container clearfix">
+                <div class="courses-header">
+                    <h1 class="float-left">Próximos cursos agendados</h1>
+                    <ul class="float-right">
+                        <li>Ordenar por:</li>
+                        <li class="active"><a href="#">Cursos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Data</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Área de atuação</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="courses-container">
+                    <ul class="course-list">
+                        <?php
+                            $cursos = simplexml_load_file("XML/cursos.xml");
+                            
+                            foreach ($cursos->curso as $curso):
+
+                                $c = utf8_decode($curso->categoria);
+
+                                switch ($c) {
+                                    case "Web":
+                                        $categoryColorClass = "green";
+                                        break;
+                                    case "Design Gr�fico":
+                                        $categoryColorClass = "orange";
+                                        break;
+                                    case "Banco de dados":
+                                        $categoryColorClass = "blue";
+                                        break;
+                                    case "Iniciantes e Usuários Av.":
+                                        $categoryColorClass = "pink";
+                                        break;
+                                }
+                         ?>
+
+                            <li>
+                                <div class="course-content float-left">
+                                    <a class="float-left main-button  <?php echo $categoryColorClass; ?>" href="#"><?php echo utf8_decode($curso->categoria); ?></a>
+                                    <div class="course-description float-left">
+                                        <p class="course-text">
+                                            <?php echo utf8_decode($curso->nome); ?>
+                                        </p>
+                                        <ul>
+                                            <li> <span class="info">Início:</span> <?php echo $curso->inicio; ?> </li>
+                                            <li> <span class="info">Período:</span> <?php echo utf8_decode($curso->periodo); ?></li>
+                                            <li> <span class="info">Carga horária:</span> <?php echo $curso->cargaHoraria; ?> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="subscribe float-right">
+                                        <p> <a href="http://interno.proway.com.br/cursos/cursos_inscricao.asp?CodCurso=<?php echo $curso->id; ?>&Curso=<?php echo $curso->id; ?>" target="_blank"> Faça sua pré-inscrição </a></p>
+                                        <p> <a href="curso.php?id=<?php echo $curso->id; ?>"> <span class="plus">+</span> Mais informações</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+
+                <ul class="bottom-menu">
+                    <li class="green float-left">
+                        <a href="#">Clique aqui para visualizar mais turmas agendadas</a>
+                    </li>
+
+                    <li class="orange">
+                        <a href="http://www.facebook.com/messages/210811362304177" target="_blank">Dúvidas? Clique aqui.</a>
+                    </li>
+
+                    <li class="blue float-right">
+                        <a href="http://www.proway.com.br/index.php?pagina=7">Conheça todos os cursos da <span class="proway">ProWay</span> clicando aqui!</a>
+                    </li>
+                </ul>
+
+                <div class="sub-banner float-left">
+                </div>
+
+                <div class="sub-banner float-right">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

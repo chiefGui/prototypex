@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+    <curso>
+        <id>MSQ</id>
+        <nome>MySQL</nome>
+        <categoria>Banco de dados</categoria>
+        <inicio>15/04/2013</inicio>
+        <periodo>Sábados de manhã</periodo>
+        <local>Blumenau</local>
+        <cargaHoraria>20</cargaHoraria>
+        <objetivos></objetivos>
+        <publicoAlvo></publicoAlvo>
+        <preRequisitos></preRequisitos>
+        <conteudoProgramatico></conteudoProgramatico>
+    </curso>
+    <curso>
+        <id>MBY</id>
+        <nome>Iniciação à informática</nome>
+        <categoria>Iniciantes e Usuários Av.</categoria>
+        <inicio>30/04/2013</inicio>
+        <periodo>Matutino 1</periodo>
+        <cargaHoraria>80</cargaHoraria>
+        <objetivos></objetivos>
+        <publicoAlvo></publicoAlvo>
+        <preRequisitos></preRequisitos>
+        <conteudoProgramatico></conteudoProgramatico>
+    </curso>
+    <curso>
+        <id>FCS</id>
+        <nome>Desenvolvendo em C#</nome>
+        <categoria>Desenvolvimento</categoria>
+        <inicio>14/04/2013</inicio>
+        <periodo>Domingo</periodo>
+        <local>Blumenau</local>
+        <cargaHoraria>60</cargaHoraria>
+        <objetivos>
+            Este curso oferece aos alunos o conhecimento e a capacidade de instalar, programar e gerenciar dados sobre a plataforma DOT.NET, bem como preparar o aluno para a Certificação sobre o sistema C#. Ao final do curso o aluno estará apto a:
+            Listar os principais elementos do .NET Framework e explicar como o C# se encaixa; 
+            Analisar a estrutura básica de uma aplicação C# e ser capaz de documentar, depurar, compilar e executar uma aplicação simples; 
+            Criar, nomear e atribuir valores às variáveis; 
+            Usar comandos comuns para implementar um controle de fluxo, loops e exception handling; 
+            Criar métodos que podem retornar valores e receber parâmetros; 
+            Explicar os conceitos básicos e terminologias de programação orientada a objetos; 
+            Criar, inicializar e destruir objetos em uma aplicação C#; 
+            Construir novas classes C# de classes existentes; 
+            Implementar propriedades e indexadores; 
+            Criar classes e listas de objetos genéricas 
+            Criar, acessar, consultar, inserir e excluir dados de bancos de dados
+            Preparar para a nova certificação 70-483
+        </objetivos>
+        <publicoAlvo></publicoAlvo>
+        <preRequisitos></preRequisitos>
+        <conteudoProgramatico></conteudoProgramatico>
+    </curso>
+    <curso>
+        <id>MAY</id>
+        <nome>Modelagem em Maya</nome>
+        <categoria>Artes gráficas</categoria>
+        <inicio>13/04/2013</inicio>
+        <periodo>Sábado 08h:00-13h:00</periodo>
+        <local>Blumenau</local>
+        <cargaHoraria>60</cargaHoraria>
+        <objetivos>
+            Este curso tem como objetivo ensinar conceitos importantes sobre Computação Gráfica em 3D, que são indispensáveis para que o aluno torne-se um profissional diferenciado no mercado.
+Ao final do curso o aluno terá uma visão geral do funcionamento do Maya, como localização das opções e ferramentas na Interface, assim como a criação e manipulação de objetos 3D.
+        </objetivos>
+        <publicoAlvo>
+            Artistas gráficos, designers, profissionais de marketing e propaganda, arquitetos, e entusiastas que desejam conhecer esta poderosa ferramenta de modelagem e animação 3D.
+        </publicoAlvo>
+        <preRequisitos>
+            Conhecimentos básicos sobre o Windows e noções básicas sobre espaço de trabalho.
+        </preRequisitos>
+        <conteudoProgramatico>
+            Iniciante
+            3D e o nosso mundo
+            Introdução a ferramenta Maya Autodesk
+            Organização de um projeto 3D
+            Trabalhando com a plataforma Maya Autodesk
+ 
+            Modelagem
+            2D para 3D
+            Trabalhando com formas e textos
+            Entendendo Nurbs e Polígonos
+            Modelagem orgânica com polígonos
+            Finalizando uma modelagem
+ 
+            Textura
+            Conceito básico de cores
+            Trabalhando com UVs
+            Trabalhando com de nodes
+            Aplicando Texturas
+            Bump e Displacements
+ 
+            Render (Maya Render)
+            Conceito de luzes e tonalidades
+            Aplicando luzes e câmeras
+            Visão geral de configurações
+            Trabalhando com efeitos no render
+ 
+            Animação
+            Animação de quadros-chaves
+            Animação de trajetos
+            Criando e deformando um texto junto com o trajeto
+            Constrains e Driven Key
+        </conteudoProgramatico>
+    </curso>
+    <curso>
+        <id>DPH</id>
+        <nome>Delphi - Módulo 1</nome>
+        <categoria>Desenvolvimento</categoria>
+        <inicio>29/04/2013</inicio>
+        <periodo>18:15 as 22:15</periodo>
+        <local>Blumenau</local>
+        <cargaHoraria>40</cargaHoraria>
+        <objetivos>
+            Mostrar ao usuário como fazer programação através da linguagem Delphi, possibilitando a este a desenvolver programas para Desktop.
+        </objetivos>
+        <publicoAlvo></publicoAlvo>
+        <preRequisitos></preRequisitos>
+        <conteudoProgramatico></conteudoProgramatico>
+    </curso>
+</cursos>

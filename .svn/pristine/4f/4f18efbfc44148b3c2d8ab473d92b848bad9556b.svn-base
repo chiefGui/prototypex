@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+  <curso>
+    <id>DRW</id>
+    <nome>Design Responsivo</nome>
+    <categoria>Web</categoria>
+    <inicio>30/02/2013</inicio>
+    <periodo>Sábados de manhã</periodo>
+    <cargaHoraria>40h</cargaHoraria>
+    <objetivos>
+      Desenvolver sites flexíveis para os diferentes dispositivos no mercado,
+      sejam notebooks, tablets, desktops, celulares, entre outros.
+    </objetivos>
+  </curso>
+  <curso>
+    <id>MSQ</id>
+    <nome>MySQL</nome>
+    <categoria>Banco de dados</categoria>
+    <inicio>30/03/2013</inicio>
+    <periodo>Sábados de manhã</periodo>
+    <cargaHoraria>20h</cargaHoraria>
+    <objetivos></objetivos>
+  </curso>
+  <curso>
+    <id>MBY</id>
+    <nome>Iniciação à informática</nome>
+    <categoria>Iniciantes e Usuários Av.</categoria>
+    <inicio>30/04/2013</inicio>
+    <periodo>Matutino 1</periodo>
+    <cargaHoraria>80h</cargaHoraria>
+    <objetivos></objetivos>
+  </curso>
+</cursos>

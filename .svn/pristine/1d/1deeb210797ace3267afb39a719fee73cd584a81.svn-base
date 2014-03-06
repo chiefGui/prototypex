@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Proway - Index</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/Base.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet/Main.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<div class="banner">
+		</div>
+
+		<div class="container clearfix">
+			<div class="courses-header">
+				<h1 class="float-left"> Próximos cursos agendados </h1>
+				<ul class="float-right">
+					<li> Ordenar por: </li>
+					<li class="active"><a href="#"> Cursos </a></li>
+					<li class="divider"></li>
+					<li><a href="#"> Data </a></li>
+					<li class="divider"></li>
+					<li><a href="#"> Área de atuação </a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="courses-container">
+				<ul class="course-list">
+					<li>
+						<div class="course-content float-left">
+							<a class="float-left main-button" href="#">Governança de TI e projetos</a>
+							<div class="course-description float-left">
+								<p class="course-text">
+									Análise de Vulnerabilidade em Softwares, Redes e Servidores
+								</p>
+								<ul>
+									<li> <span class="info"> Início: </span> 30/02/2013 </li>
+									<li> <span class="info"> Período: </span> Sábados de manhã</li>
+									<li> <span class="info"> Carga Horária: </span> 40h </li>
+								</ul>
+							</div>
+							<div class="subscribe float-right">
+								<p> <a href="#"> Faça sua pré-inscrição </a> </p>
+								<p> <a href="#"> <span class="plus"> + </span> Mais informações </a> </p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="course-content float-left">
+							<a class="float-left main-button orange" href="#">Web</a>
+							<div class="course-description float-left">
+								<p class="course-text">
+									Análise de Vulnerabilidade em Softwares, Redes e Servidores
+								</p>
+								<ul>
+									<li> <span class="info"> Início: </span> 30/02/2013 </li>
+									<li> <span class="info"> Período: </span> Sábados de manhã </li>
+									<li> <span class="info"> Carga Horária: </span> 40h </li>
+								</ul>
+							</div>
+							<div class="subscribe float-right">
+								<p> <a href="#"> Faça sua pré-inscrição </a> </p>
+								<p> <a href="#"> <span class="plus"> + </span> Mais informações </a> </p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="course-content float-left">
+							<a class="float-left main-button green" href="#">Design Grafico</a>
+							<div class="course-description float-left">
+								<p class="course-text">
+									Análise de Vulnerabilidade em Softwares, Redes e Servidores
+								</p>
+								<ul>
+									<li> <span class="info"> Início: </span> 30/02/2013 </li>
+									<li> <span class="info"> Período: </span> Sábados de manhã </li>
+									<li> <span class="info"> Carga Horária: </span> 40h </li>
+								</ul>
+							</div>
+							<div class="subscribe float-right">
+								<p> <a href="#"> Faça sua pré-inscrição </a> </p>
+								<p> <a href="#"> <span class="plus"> + </span> Mais informações </a> </p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="course-content float-left">
+							<a class="float-left main-button" href="#">Governança de TI e projetos</a>
+							<div class="course-description float-left">
+								<p class="course-text">
+									Análise de Vulnerabilidade em Softwares, Redes e Servidores
+								</p>
+								<ul>
+									<li> <span class="info"> Início: </span> 30/02/2013 </li>
+									<li> <span class="info"> Período: </span> Sábados de manhã </li>
+									<li> <span class="info"> Carga Horária: </span> 40h </li>
+								</ul>
+							</div>
+							<div class="subscribe float-right">
+								<p> <a href="#"> Faça sua pré-inscrição </a> </p>
+								<p> <a href="#"> <span class="plus"> + </span> Mais informações </a> </p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<ul class="bottom-menu">
+				<li class="green float-left">
+					<a href="#">Clique aqui para visualizar mais turmas agendadas</a>
+				</li>
+
+				<li class="orange">
+					<a href="#">Dúvidas? Clique aqui.</a>
+				</li>
+
+				<li class="blue float-right">
+					<a href="#">Conheça todos os cursos da <span class="proway"> ProWay </span> clicando aqui!</a>
+				</li>
+			</ul>
+
+			<div class="sub-banner float-left">
+			</div>
+
+			<div class="sub-banner float-right">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

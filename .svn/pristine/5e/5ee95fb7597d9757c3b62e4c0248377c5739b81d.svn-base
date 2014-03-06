@@ -1,0 +1,191 @@
+body {
+	font-family: Arial, Tahoma sans-serif;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+div.wrapper {
+	width: 790px;
+	margin: 0 auto;
+}
+
+div.banner {
+	width: 100%;
+	height: 220px;
+	background-color: #01528a;
+}
+
+div.courses-header {
+	margin: 10px 0;
+}
+
+div.courses-header h1 {
+	font-size: 20px;
+}
+
+div.courses-header ul {
+	list-style: none;
+}
+
+div.courses-header ul li {
+	display: inline;
+	margin-left: 6px;
+}
+
+div.courses-header ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+div.courses-header ul li.divider {
+	border-right: 1px solid #01528a;
+}
+
+div.courses-header ul li.active a,
+span.info {
+	color: #01528a;
+	font-weight: bold;
+}
+
+div.courses-container ul.course-list {
+	list-style: none;
+}
+
+div.courses-container ul.course-list > li {
+	float: left;
+	margin-bottom: 15px;
+}
+
+div.courses-container ul li {
+	display: block;
+	position: relative;
+}
+
+div.course-content a.main-button {
+	width: 120px;
+	font-size: 17px;
+	height: 44px;
+	padding: 7px;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #01528a;
+}
+
+.blue {
+	background-color: #01528a !important;
+}
+.orange {
+	background-color: #ba5c14 !important;
+}
+
+.green {
+	background-color: #6e8127 !important;
+}
+
+.pink {
+    background-color: #b64555 !important;
+}
+
+div.course-description p {
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+div.course-description ul {
+	float: left;
+	width: 486px;
+	background-color: #ececec !important;
+    margin-top: 1px;
+}
+
+div.course-description ul li {
+	float: left;
+	padding: 6px 20px 6px 15px;
+	font-size: 12px;
+}	
+
+div.course-description {
+	margin-top: 14px;
+}
+
+div.subscribe {
+	margin-top: 6px;
+}
+
+div.subscribe p {
+	text-align: right;
+	padding: 5px;
+	position: relative;
+}
+
+div.subscribe a {
+	text-decoration: none;
+	color: #fff;	
+}
+
+div.subscribe p:first-child {
+	background-color: #9e0c17 !important;
+}
+
+div.subscribe p + p {
+	background-color: #015486 !important;
+}
+
+div.subscribe span.plus {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 5px 12px;
+	background-color: #008ee4;
+}
+
+ul.bottom-menu {
+	width: 790px;
+	list-style: none;
+}
+
+ul.bottom-menu li {
+	float: left;
+	text-align: center;
+	width: 230px;
+	height: 40px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+ul.bottom-menu li a {
+	text-decoration: none;
+	color: #fff;	
+}
+
+ul.bottom-menu li:first-child {
+	margin-left: 0;
+}
+
+span.proway {
+	color: #dacd05;
+}
+
+div.sub-banner {
+	width: 380px;
+	height: 200px;
+	margin: 20px 0;
+	background-color: #898989;
+}
+
+ul.post-menu {
+	display: inline;
+}

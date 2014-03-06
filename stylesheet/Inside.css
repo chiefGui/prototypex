@@ -1,0 +1,96 @@
+div.breadcrumb {
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}
+
+a.back-link {
+    text-decoration: none;
+    color: #000;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+}
+
+a.course-title {
+    background-color: #01528a;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px;
+}
+
+h1.main-description {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+}
+
+ul.info-list {
+    width: 650px;
+    background-color: #ececec !important;
+}
+
+ul.info-list li {
+    float: left;
+    padding: 6px 15px 6px 10px;
+    font-size: 13px;
+}
+
+ul.facebook-actions {
+    width: 140px;
+    background-color: #f4f4f4;
+    padding: 3px 0 2px;
+}
+
+ul.facebook-actions li {
+    float: left;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+ul.facebook-actions li a {
+    font-weight: bold;
+    color: #797979;
+}
+
+ul.facebook-actions li:first-child {
+}
+
+ul.facebook-actions li a {
+    text-decoration: none;
+    color: #797979;
+}
+
+div.objectives {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+p.main-text {
+    width: 100%;
+}
+
+div.post-menu {
+    float: left;
+    width: 790px;
+    clear: both;
+}
+
+p.category {
+    width: 100%;
+    float: left;
+    margin: 0 0 5px;
+}
+
+p.category a {
+    float: left;
+}
+
+div.comments {
+    width: 100%;
+    float: left;
+    display: inline;
+    position: relative;
+    margin: 10px 0 25px;
+}
